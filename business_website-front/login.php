@@ -48,7 +48,7 @@
                    </div>
                 </form>
 <br>
-                <p class="right">Not yet registerd? <a href="register.php">Register here</a></p>
+                <p class="right">Not yet ? <a href="register.php">Register here</a></p>
 
             </div>
 
