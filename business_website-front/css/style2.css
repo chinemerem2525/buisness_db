@@ -1,0 +1,97 @@
+*
+{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: san-serif, verdana, open sans, arial;
+}
+
+
+body
+{
+	width: 100%;
+	
+}
+
+
+.reg_form
+{
+	background: white;
+	padding: 20px;
+	margin: 100px auto;
+	box-shadow: 0 0 5px silver;
+	border-radius: 10px;
+	max-width: 500px;
+	
+}
+
+.input_control
+{
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+	padding: 10px;
+	outline: none;
+	border: 1px solid silver;
+	font-size: 16px;
+}
+
+
+button
+{
+	border: none;
+	background: orange;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
+button:disabled
+{
+	opacity: .5;
+}
+
+.students_container
+{
+	background: white;
+	padding: 20px;
+	margin: 50px;
+	box-shadow: 0 0 5px silver;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+
+.table_format
+{
+	background-color: white;
+	box-shadow: 0 0 5px silver;
+	/*margin: auto;*/
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table_format th
+{
+	background-color: darkred;
+	color: white;
+	text-align: left;
+	vertical-align: top;
+	padding: 5px 10px;
+}
+
+
+.table_format td
+{
+	text-align: left;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.table_format tr:nth-child(even)
+{
+	background: rgb(239,239,239);
+}
